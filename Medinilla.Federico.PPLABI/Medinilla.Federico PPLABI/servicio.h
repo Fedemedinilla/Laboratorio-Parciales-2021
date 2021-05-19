@@ -9,4 +9,6 @@ typedef struct
 }eServicio;
 
 int initServicios(eServicio servicios[],int tam);
+int mostrarServicio(eServicio servicio);
+int mostrarServicios(eServicio servicios[],int tam);
 #endif // SERVICIO_H_INCLUDED

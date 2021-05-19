@@ -85,6 +85,14 @@ int main()
             case 2:
                 break;
             case 3:
+                if(!bajaMascota(mascotasLista,MASCOTASTAM,&idMascotaActual))
+                {
+                    printf("Baja realizada con exito.");
+                }
+                else
+                {
+                    printf("Baja no realizada");
+                }
                 break;
             case 4:
                 break;

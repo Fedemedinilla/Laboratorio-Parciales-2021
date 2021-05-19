@@ -18,4 +18,6 @@ typedef struct
 int initMascotas(eMascota mascotas[],int tam);
 int agregarMascota(eMascota mascotas[],int tam, int* idMascota);
 int mostrarMascota(eMascota mascota, eTipoMascota tipo, eColorMascota color);
+int buscarxID(eMascota mascotas[],char msg[],char msgError[],int tam,int* idBuscado);
+int bajaMascota(eMascota mascotas[], int tam, int* idBuscado);
 #endif // MASCOTA_H_INCLUDED

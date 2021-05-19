@@ -4,7 +4,7 @@
 
 1621429970 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\fecha.h
 
-1621433501 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\main.c
+1621436192 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -33,7 +33,7 @@
 	"misFuncionesGet.h"
 	"colorMascota.h"
 
-1621433422 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.c
+1621436198 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -45,7 +45,7 @@
 	"servicio.h"
 	"trabajo.h"
 
-1621433654 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.c
+1621433677 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -59,7 +59,7 @@
 
 1621426505 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.c
 
-1621432430 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.h
+1621436224 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.h
 	"tipoMascota.h"
 	"colorMascota.h"
 
@@ -75,7 +75,7 @@
 	"misFuncionesGet.h"
 	"tipoMascota.h"
 
-1621428454 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.h
+1621436277 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.h
 
 1621426612 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.h
 	"fecha.h"

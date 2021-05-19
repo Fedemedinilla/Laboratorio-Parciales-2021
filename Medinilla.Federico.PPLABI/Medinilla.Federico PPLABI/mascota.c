@@ -69,4 +69,45 @@ int agregarMascota(eMascota mascotas[],int tam, int* idMascota)
     }
     return error;
 }
+int buscarxID(eMascota mascotas[],char msg[],char msgError[],int tam,int* idBuscado)
+{
+	int indexBuscado=-1;
+
+    getNumero(&indexBuscado,msg,msgError,tam,*idBuscado);
+	if(mascotas!=NULL && tam>0 && idBuscado>=0)
+	{
+		for(int i=0;i<tam;i++)
+		{
+			if(mascotas[i].id==*idBuscado)
+			{
+				indexBuscado=i;
+				break;
+			}
+		}
+	}
+	return indexBuscado;
+}
+int bajaMascota(eMascota mascotas[], int tam, int* idBuscado)
+{
+	int error=-1;
+    int indiceABorrar;
+
+	if(mascotas!=NULL&&tam>0)
+	{
+        if((indiceABorrar=buscarxID(mascotas,"\nIngrese el ID: ","\nERROR - Reingrese el ID.",100,idBuscado))>=100)
+        {
+            for(int i=0;i<tam;i++)
+            {
+                if(i==indiceABorrar)
+                {
+                    mascotas[i].isEmpty=VACIO;
+                    error=0;
+                    break;
+                }
+            }
+        }
+	}
+	return error;
+}
+
 
