@@ -60,3 +60,32 @@ int mostrarServicios(eServicio servicios[],int tam)
 
     return error;
 }
+int mostrarServicioMasBarato(eServicio servicios[],int serviciosTam)
+{
+    int error=1;
+    int flag=1;
+    float menorPrecio=0;
+    int servicioMenorPrecioIndice;
+
+    if(servicios!=NULL && serviciosTam>0)
+    {
+        for(int i=0;i<serviciosTam;i++)
+        {
+            if(flag==1 || servicios[i].precio<menorPrecio)
+            {
+                menorPrecio=servicios[i].precio;
+                servicioMenorPrecioIndice=i;
+                flag=0;
+            }
+            else if(servicios[i].precio<menorPrecio)
+            {
+                servicioMenorPrecioIndice=i;
+                menorPrecio=servicios[i].precio;
+            }
+        }
+        printf("\nEl servicio de menor precio es %s con %.2f",servicios[servicioMenorPrecioIndice].descripcion,menorPrecio);
+        error=0;
+    }
+
+    return error;
+}

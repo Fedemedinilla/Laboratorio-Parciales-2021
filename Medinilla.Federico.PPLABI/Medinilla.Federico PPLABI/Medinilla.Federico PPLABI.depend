@@ -4,7 +4,7 @@
 
 1621429970 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\fecha.h
 
-1621436192 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\main.c
+1622040502 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -15,10 +15,12 @@
 	"tipoMascota.h"
 	"colorMascota.h"
 	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
 
-1621425915 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\misfuncionesget.h
+1622025138 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\misfuncionesget.h
 
-1621430158 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\misfuncionesget.c
+1621701402 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\misfuncionesget.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -33,7 +35,20 @@
 	"misFuncionesGet.h"
 	"colorMascota.h"
 
-1621436198 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.c
+1622040637 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"misFuncionesGet.h"
+	"mascota.h"
+	"tipoMascota.h"
+	"colorMascota.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
+
+1621997121 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -45,7 +60,7 @@
 	"servicio.h"
 	"trabajo.h"
 
-1621433677 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.c
+1622031914 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -57,15 +72,14 @@
 	"servicio.h"
 	"trabajo.h"
 
-1621426505 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.c
-
-1621436224 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.h
+1622038453 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\mascota.h
 	"tipoMascota.h"
 	"colorMascota.h"
+	"cliente.h"
 
-1621433248 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\tipomascota.h
+1622025302 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\tipomascota.h
 
-1621433412 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\colormascota.h
+1622025434 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\colormascota.h
 
 1621433412 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\tipomascota.c
 	<stdio.h>
@@ -75,8 +89,23 @@
 	"misFuncionesGet.h"
 	"tipoMascota.h"
 
-1621436277 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.h
+1622026084 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\servicio.h
 
-1621426612 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.h
+1622031896 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\trabajo.h
 	"fecha.h"
+
+1622034019 c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\cliente.h
+
+1622035110 source:c:\users\federico\desktop\laboratorio parciales 2021\medinilla.federico.pplabi\medinilla.federico pplabi\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"misFuncionesGet.h"
+	"mascota.h"
+	"tipoMascota.h"
+	"colorMascota.h"
+	"servicio.h"
+	"trabajo.h"
+	"cliente.h"
 
